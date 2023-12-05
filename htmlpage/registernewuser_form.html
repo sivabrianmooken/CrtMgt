@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register New User</title>
+    <link rel="stylesheet" href="../css-js/styles.css">
+    <script src="../css-js/resetpass_script.js"></script>
+
+</head>
+
+<body>
+    <div class="log-container">
+        <img src="../images/rogers-hospitality-logo.png" alt="Rogers Hospitality Logo" class="RholLogin-logo"> <!--logo image on register new user page-->
+        <h1>User Registration</h1>
+        <form class="log-form">
+            <label for="email">Email:</label>
+            <input type="email" id="Email" placeholder="Email" required>
+
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" placeholder="Job Title" required>
+
+            <label for="cluster">Cluster:</label>
+            <input type="text" id="cluster" placeholder="Cluster" required>
+
+            <label for="businessUnit">Business Unit:</label>
+            <input type="text" id="businessUnit" placeholder="Business Unit" required>
+            <div class="passwrd-container">
+                <label for="newpassword">Enter New Password:</label>
+                <input type="password" id="newpassword" placeholder="New Password" required>
+                <label for="confirmnewpassword">Confirm New Password:</label>
+                <input type="password" id="confirmnewpassword" placeholder="Confirm New Password" required>
+            </div>
+            <!--Submit button-->
+            <button type="submit" class="newpasswrd-button" name="newpasswrd">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>

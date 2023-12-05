@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1f2d3d; /*change background color to marine blue */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.log-container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 370px;
+    text-align:center;
+}
+
+.RholLogin-logo{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.log-form{
+    margin-bottom: 20px;
+}
+.log-form label{
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    color: #0072c6;
+    margin: 5px;
+}
+.log-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.passwrd-container{
+    position: relative;
+}
+
+.passwrd-toggle{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.links a {
+    text-decoration: none;
+    color: steelblue;
+    margin: 0 10px;
+}
+
+.links span{
+    margin: 0 5px;
+}
+
+.log-button{
+    background-color: #0072c6;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.newpasswrd-button{
+    background-color: #0072c6;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}

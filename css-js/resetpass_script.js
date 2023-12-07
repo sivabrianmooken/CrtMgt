@@ -2,9 +2,7 @@ document.addEventListener("DOMContentLoaded",function(){
     function isPasswordValid(password){
         const passwordRegex= /^(?=.*[A-Za-z])(?=.*\d).{6,}$/;
             return passwordRegex.test(password);
-
     }
-
     function displayErrorMessage(message){
         alert(message);
     }
